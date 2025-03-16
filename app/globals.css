@@ -12,6 +12,6 @@
   @apply text-3xl font-semibold;
 }
 
-@utility btn {
-  @apply w-full bg-black h-10 text-white;
+@utility primary-btn {
+  @apply w-full bg-orange-500 text-white  font-medium  rounded-md text-center hover:bg-orange-400 transition-colors
 }
